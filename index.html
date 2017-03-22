@@ -11,7 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 	</head>
 	<body>
-		<!--顶部导航栏开始-->
+		<!--顶部导航栏开始---------------------------->
 		<nav id="top_bar">
 			<div id="top_wrap">
 				<div id="top_wrap_lfet">
@@ -19,25 +19,34 @@
 					<a class="reg" href="register.html">免费注册</a>
 				</div>
 				<div id="top_wrap_lfet2">
-					<a class="ph_app" href="javascript:void(0)"><img src="img/phone_icon.jpg"/>手机考拉海购</a>
-					<div id='ph_ewm'></div>
+					<a class="ph_app" href="//app.kaola.com"><img src="img/phone_icon.jpg"/>手机考拉海购</a>
+					<!--突出的小三角-->
+					<div id="sjx"></div>
+					
+					<!--手机端二维码-->
+					<div id='ph_ewm'>
+						<img src="img/ph_ewm.jpg"/>
+						<strong>下载APP<br />领1000元新人礼包</strong>
+					</div>
+					
 				</div>
 				<ul>
-					<li><a class="qd" href="javascript:void(0)"><img src="img/flag.jpg"/>每日签到</a></li>
-					<li><a href="javascript:void(0)">我的订单</a></li>
-					<li class="pc"><a href="javascript:void(0)">个人中心<div class="arrow"></div></a></li>
+					<li><a class="qd" href="javascript:void(0)"><img src="img/flag.jpg"/>&nbsp;每日签到</a></li>
+					<li><a href="//www.kaola.com/personal/my_order_new.html">我的订单</a></li>
+					<li class="pc"><a href="http://www.kaola.com/personal/my_order_new.html?zn=top">个人中心<div class="arrow"></div></a></li>
 					<li class="pc"><a href="javascript:void(0)">客户服务<div class="arrow"></div></a></li>
 					<li class="pc"><a href="javascript:void(0)">充值中心<div class="arrow"></div></a></li>
 					<li><a href="javascript:void(0)">消费者告知书</a></li>
 					<li class="pc"><a href="javascript:void(0)">更多<div class="arrow"></div></a></li>
+					<!--导航栏下拉菜单-->
 					<div class="drop_menu" id="dm_one">
-						<a class='dm0' href="javascript:void(0)"><span>我的优惠券</span></a>
-						<a class='dm1' href="javascript:void(0)"><span>我的考拉豆</span></a>
-						<a class='dm2' href="javascript:void(0)"><span>账户安全</span></a>
-						<a class='dm3' href="javascript:void(0)"><span>我的实名认证</span></a>
-						<a class='dm4' href="javascript:void(0)"><span>我收藏的商品</span></a>
-						<a class='dm5' href="javascript:void(0)"><span>我关注的品牌</span></a>
-						<a class='dm6' href="javascript:void(0)"><span>售后管理</span></a>
+						<a class='dm0' href="//www.kaola.com/personal/my_coupon.html"><span>我的优惠券</span></a>
+						<a class='dm1' href="//www.kaola.com/personal/my_point/index.html"><span>我的考拉豆</span></a>
+						<a class='dm2' href="//www.kaola.com/personal/account_security.html"><span>账户安全</span></a>
+						<a class='dm3' href="//www.kaola.com/personal/authentication.html"><span>我的实名认证</span></a>
+						<a class='dm4' href="//www.kaola.com/personal/listfavorite.html"><span>我收藏的商品</span></a>
+						<a class='dm5' href="//www.kaola.com/personal/brands.html"><span>我关注的品牌</span></a>
+						<a class='dm6' href="//www.kaola.com/personal/service_records.html"><span>售后管理</span></a>
 					</div>
 					<div class="drop_menu" id="dm_two">
 						<a class='dm0' href="javascript:void(0)"><span>联系客服</span></a>
@@ -56,9 +65,178 @@
 						<a class='dm4' href="javascript:void(0)"><span>招商合作</span></a>
 						<a class='dm5' href="javascript:void(0)"><span>考拉招聘</span></a>
 					</div>
+					<!--导航栏下拉菜单结束-->
+					
+					
 				</ul>
 			</div>
 		</nav>
-		<!--顶部导航栏结束-->
+		<!--顶部导航栏结束-------------------------------------->
+		
+		<!--顶部搜索区域开始------------------------------------->
+		<div id="top_search">
+			<div id="sh_area">
+				<a href="//www.kaola.com/" class="kl_logo"><img src="img/kaola_logo.png" /></a>
+				<div id="search_box">
+					<div id="search_wrap">
+						<span id="top_sh_icon">
+						</span>
+						<input type="text" id="sh_input" value="维生素c" onfocus="if(value=='维生素c'){value=''}" onblur="if(value==''){value='维生素c'}"/>
+						
+					</div>
+					<span id="top_search_icon"></span>
+					<ul id="suggst_list">
+						<li><a href="">游戏充值</a></li>
+						<li><a href=""><span class="sep">|</span>雅诗兰黛</a></li>
+						<li><a href=""><span class="sep">|</span>奶粉</a></li>
+						<li><a href=""><span class="sep">|</span>马油</a></li>
+						<li><a href=""><span class="sep">|</span>MK</a></li>
+						<li><a href=""><span class="sep">|</span>麦片</a></li>
+						<li><a href=""><span class="sep">|</span>LAMY</a></li>
+					</ul>
+				</div>
+				<a id="top_sh_cart" href="">
+					<span class="cart_icon"></span><span class="cart_wrap">购物车<b id="new_cart_num" class="num">0</b></span>
+				</a>
+			</div>
+		</div>
+		<!--顶部搜索区域结束---------------------------------->
+	
+		<!--fix的搜索栏开始---------------------------------->
+    
+    
+    
+    
+   		<!--fix的搜索栏结束---------------------------------->
+    
+		<!--导航栏开始--------------------------------------->
+		<nav id="guide_box">
+			<div id='guide_bar'>
+				<div id="guide_classify">
+					<div class="lines">
+						<i></i>
+						<i></i>
+						<i></i>
+					</div>
+					<span>所有分类</span>
+				</div>
+				<ul id="guide_tab">
+					<li><a class='tab_one' href="">首页</a></li>
+					<li><a class='tab_two' href="">今日限时购</a></li>
+					<li><a class='tab_three' href="">每日上新</a></li>
+					<li><a class='tab_four' href="">国家馆</a></li>
+					<li><a class='tab_five' href="">全球旗舰</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!--导航栏结束-------------------------------------->
+		
+		<!--轮播图开始----------------------------------------->
+		<div id="show_imgs">
+			<div id="show_imgs_box">
+				<img src="img/pic_1.jpg" alt="" />
+				<img src="img/pic_2.jpg" alt="" />
+				<img src="img/pic_3.jpg" alt="" />
+				<img src="img/pic_4.jpg" alt="" />
+				<img src="img/pic_5.jpg" alt="" />
+				<img src="img/pic_6.jpg" alt="" />
+			</div>
+			
+			<div id="show_midbox">
+				<lu id='show_dot'>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+					<li>6</li>
+				</lu>
+				<a id='show_left' href="javascript:void(0)"></a>
+				<a id='show_right' href="javascript:void(0)"></a>
+				<lu id='show_items'>
+					<li>
+						<img src="img/mu_ying.png"/>
+						<span>母婴儿童</span>
+						<i></i>
+						<em></em>
+						<div class="show_menu">
+							<div class="show_menu_a">
+								<div class="show_menu_a_5">
+									<p class="show_menu_title"><a href="//www.kaola.com/category/2620.html?zn=top&zp=category-1-1-1" target="_blank" class="show_menu_title_font">奶粉</a></p>
+									<div class="show_menu_namebox">
+										<a href="//www.kaola.com/category/2620/2622.html?zn=top&zp=category-1-1-1-1" target="_blank" class="show_menu_namebox_a2">爱他美</a>
+									</div>
+								</div>
+							</div>
+							<div class="show_menu_b">
+								
+							</div>
+							<div class="show_menu_c">
+								
+							</div>
+						</div>
+					</li>
+					<li>
+						<img src="img/mei_rong.png"/>
+						<span>美容彩妆</span>
+						<i></i>
+						<em></em>
+					</li>
+					<li>
+						<img src="img/fu_shi.png"/>
+						<span>服饰鞋包</span>
+						<i></i>
+						<em></em>
+					</li>
+					<li>
+						<img src="img/jia_ju.png"/>
+						<span>家居个护</span>
+						<i></i>
+						<em></em>
+					</li>
+					<li>
+						<img src="img/yin_yang.png"/>
+						<span>营养保健</span>
+						<i></i>
+						<em></em>
+					</li>
+					<li>
+						<img src="img/hai_wai.png"/>
+						<span>海外直邮</span>
+						<i></i>
+						<em></em>
+					</li>
+					<li>
+						<img src="img/shu_ma.png"/>
+						<span>数码家电</span>
+						<i></i>
+						<em></em>
+					</li>
+					<li>
+						<img src="img/huan_qiu.png"/>
+						<span>环球美食</span>
+						<i></i>
+						<em></em>
+					</li>
+					<li>
+						<img src="img/yun_dong.png"/>
+						<span>运动户外</span>
+						<i></i>
+						<em></em>
+					</li>
+					<li>
+						<img src="img/shui_guo.png"/>
+						<span>水果生鲜</span>
+						<i></i>
+						<em></em>
+					</li>
+					
+				</lu>
+				
+			</div>	
+		</div>
+		
+		<!--轮播图结束---------------------------------------->
+		<div style="width: 400px;height: 400px ;background: lightblue;"></div>
 	</body>
 </html>
